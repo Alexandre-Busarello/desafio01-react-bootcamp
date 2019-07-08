@@ -1,0 +1,19 @@
+.comment {
+  display: flex;
+  margin-top: 20px;
+}
+
+.comment .user {
+  display: none;
+}
+
+.comment .content {
+  margin-left: 10px;
+  border-radius: 20px;
+  padding: 10px;
+  background-color: #EEEEEE;
+}
+
+.comment .content p {
+  margin: 0;
+}

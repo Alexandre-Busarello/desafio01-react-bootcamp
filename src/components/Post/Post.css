@@ -1,0 +1,45 @@
+.post {
+  border-radius: 10px;
+  background-color: #FFF;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.post hr {
+  color: #FFF;
+  margin: 0;
+  margin-top: 25px;
+}
+
+.post .user {
+  display: flex;
+}
+
+.post .info {
+  display: inline-grid;
+  padding-left: 10px;
+  padding-top: 2px;
+}
+
+.post .info .name {
+  color: #4A4A4A;
+}
+
+.post .info .date {
+  font-size: 10px;
+  color: #9A9A9A;
+}
+
+.post .user .avatar {
+  width: 37px;
+  height: 37px;
+  background-size: cover;
+  background-position: top center;
+  border-radius: 50%;
+  background-color: #666;
+}
+
+.post .content p {
+  color: #3E3E3E;
+  margin-left: 3px;
+}
